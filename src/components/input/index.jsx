@@ -1,7 +1,7 @@
 import React from "react";
 
-const Input = () => {
-  return <input type="text" />
+const Input = (props) => {
+  return <input type="text" {...props} />
 }
 
 export default Input
